@@ -1,0 +1,12 @@
+<h2>renderizarizando um lista de dados </h2>
+
+<ul>
+    <li *ngFor="let celular of celulares">
+        <strong>{{celular.nome}}</strong>
+        <p>{{celular.descricao}}</p>
+        <span>{{celular.esgotado ? "esgotado":"disponivel"}}</span>
+
+
+
+    </li>
+</ul>

@@ -1,0 +1,6 @@
+<h2>Componente Pai</h2>
+
+<p>Interagindo com o componente Pai {{sobrenome}}</p>
+<h3>O nome completo é : {{filho.nome}} {{sobrenome}}</h3>
+<!-- criando uma referencia de uma variavel  -->
+<app-componente-filho [sobrenome]="sobrenome" (mostraNome)="mostrarNomeCompleto($event)" #filho></app-componente-filho>
